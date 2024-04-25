@@ -1,0 +1,66 @@
+/* NORMALIZATION */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	height: 100%;
+	margin: 0;
+	color: black;
+	background-color: white;
+}
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+table {
+	border-collapse: collapse;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0.5em 0;
+	font-weight: 600;
+	color: inherit;
+}
+p {
+	margin: initial;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+legend {
+	width: unset;
+	max-width: unset;
+	margin: unset;
+	padding: unset;
+}
+
+.anim-spin {
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
